@@ -17,6 +17,10 @@ a:hover{
 	color: #E42149;
 	text-decoration: none;
 }
+img{
+	max-width: 100%;
+	height: auto;
+}
 .sp{
 	display: block;
 }
