@@ -24,6 +24,14 @@
         var that = $(this);
         if (pos <= max - 40 && pos >= min) {
           
+          selectors.id.css( // 背景を今のselectors.itemの画像に変更
+            "background-image",
+            "url(" +
+              $(this)
+                .find(img)
+                .attr("src") +
+              ")"
+          );
 
           selectors.item.removeClass(activeClass);
           $(this).addClass(activeClass);
