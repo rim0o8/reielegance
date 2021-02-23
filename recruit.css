@@ -1,0 +1,30 @@
+#main h2.ttl{
+	margin-bottom: 40px;
+	text-align: center;
+	line-height: 1.0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	letter-spacing: 0.05em;
+}
+
+#main.inner h2.ttl {
+	margin-bottom: 25px;
+}
+#main h3.ttl {
+	margin-bottom: 12px;
+	text-align: center;
+	line-height: 1.0;
+	font-size: 22px;
+	color: #505050;
+}
+#main p.ttl {
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 1.0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.1em;
+	color: #a5a5a5;
+}

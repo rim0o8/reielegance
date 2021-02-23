@@ -1,0 +1,22 @@
+#salons ul{
+	list-style: none;
+}
+
+#salons ul li{
+	float: left;
+	width: 100%;
+	min-height: 500px;
+	border-bottom: 1px solid #d9d9d9;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+#salons ul li a{
+	display: block;
+	width: 100%;
+	padding: 12px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.1em;
+}

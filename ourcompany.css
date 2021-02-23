@@ -1,0 +1,39 @@
+#ourcompany{
+	width: 80%;
+	display: flex;
+	margin: 20px auto;
+	justify-content: center;
+}
+
+.left, .right{
+	padding: 20px;
+}
+
+.left{
+	width: 50%;
+	margin-right: 20px;
+}
+
+.right{
+	width: 50%;
+}
+
+#ourcompany ul li a{
+	display: block;
+	width: 100%;
+	padding: 12px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.1em;
+}
+
+/* タブレット向け：760px～960px */
+@media only screen and (min-width: 760px) {
+
+}
+
+/* PC向けレイアウトの指定：961px～ */
+@media only screen and (min-width: 961px) {
+	ul
+}
